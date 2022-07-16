@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://evilsaloon.com/sitemap.xml
