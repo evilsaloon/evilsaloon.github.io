@@ -3,12 +3,63 @@
     <title>evilsaloon</title>
     <link href="https://evilsaloon.com/feed.xml" rel="self" />
     <link href="https://evilsaloon.com" />
-    <updated>2022-07-16T22:48:26+03:00</updated>
+    <updated>2022-07-30T17:09:11-05:00</updated>
     <author>
         <name>Maximilian Vidavsky</name>
     </author>
     <id>https://evilsaloon.com</id>
 
+    <entry>
+        <title>BlueStacks and Charles Proxy: A Better Love Story</title>
+        <author>
+            <name>Maximilian Vidavsky</name>
+        </author>
+        <link href="https://evilsaloon.com/bluestacks-and-charles-proxy/"/>
+        <id>https://evilsaloon.com/bluestacks-and-charles-proxy/</id>
+            <category term="tutorial"/>
+            <category term="charles"/>
+            <category term="bluestacks"/>
+            <category term="android proxy"/>
+
+        <updated>2022-07-30T17:09:11-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://evilsaloon.com/media/posts/4/bst1-2.PNG" alt="" />
+                    Recently, I came across a problem: my trusty rooted Android 4 phone couldn't install an app whose API I wanted to reverse engineer, because the app was targeting Android versions 7 and above. Instead of buying a newer phone for my needs, I started looking&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://evilsaloon.com/media/posts/4/bst1-2.PNG" alt="" />
+                <p>Recently, I came across a problem: my trusty rooted Android 4 phone couldn't install an app whose API I wanted to reverse engineer, because the app was targeting Android versions 7 and above. Instead of buying a newer phone for my needs, I started looking towards emulators.</p>
+<p>The first article I came across was from Mark Dappollone on <a href="https://mdapp.medium.com/the-android-emulator-and-charles-proxy-a-love-story-595c23484e02" target="_blank" rel="noopener noreferrer">Medium</a>, but it was published back in 2017 and didn't address my main concern: installing Android Studio just to use its emulator is a massive waste of time and hard drive space. Android Studio is completely unintuitive, and the emulator does not work on my machine at all.</p>
+<p>Not only that, but it's meant for developers who can add their own SSL certificates into apps, which is impractical for reverse engineering, when we usually don't have access to the source code. Instead, I turned to an emulator I had used before, BlueStacks. This article will teach you how to root the BlueStacks emulator and use it to proxy calls.</p>
+<h2>Step 1 - Installation</h2>
+<p>Of course, you will need to install <a href="https://www.charlesproxy.com/download/latest-release/" target="_blank" rel="noopener noreferrer">Charles</a> first. For the emulator, I recommend <a href="https://www.bluestacks.com/download" target="_blank" rel="noopener noreferrer">downloading</a> the latest 64-bit version of BlueStacks 5, since it supports Hyper-V. Once downloaded and installed, launch the application once and let the emulator fully load.</p>
+<p>Once loaded, close the emulator and download the latest version of <a href="https://bstweaker.tk/" target="_blank" rel="noopener noreferrer">BlueStacks Tweaker</a>. This nifty program will allow us to root the emulator, as well as install Xposed. The latest beta works with the latest version of BlueStacks 5 (5.9).</p>
+<h2>Step 2 - Root + Xposed</h2>
+<p>Open BlueStacks Tweaker and navigate to the "Root" tab. Make sure the emulator is closed and press "Unlock". This will unlock the emulator for rooting. Once that is done, press the "Play" button next to your emulator and wait for the emulator to load. Make sure you have Android Nougat (7.1), because BlueStacks Tweaker doesn't support the Android Pie beta yet.</p>
+<figure class="post__image"><img loading="lazy"  src="https://evilsaloon.com/media/posts/4//bst1.PNG" sizes="100vw" srcset="https://evilsaloon.com/media/posts/4//responsive/bst1-xs.PNG 300w ,https://evilsaloon.com/media/posts/4//responsive/bst1-sm.PNG 480w ,https://evilsaloon.com/media/posts/4//responsive/bst1-md.PNG 768w ,https://evilsaloon.com/media/posts/4//responsive/bst1-lg.PNG 1024w ,https://evilsaloon.com/media/posts/4//responsive/bst1-xl.PNG 1360w ,https://evilsaloon.com/media/posts/4//responsive/bst1-2xl.PNG 1600w"  alt="" width="1023" height="559"></figure>
+<p>Once the emulator has loaded, press "Patch", then "Install SuperSu", then "Update Su binary". This will close the instance, so don't be surprised. Launch it again, and under the Xposed tab, press "Patch", "Install", and then "Flash". Restart the instance, and then open Xposed. It should say "Xposed Framework version 89 is active." and display a green checkmark. This means we can move onto step 3.</p>
+<h2>Step 3 - Root Certificate + Proxy</h2>
+<p>Now that our "device" is rooted and Xposed, we can start by setting the proxy. Kudos to u/ProgramTechie on Reddit for figuring out the <a href="https://www.reddit.com/r/BlueStacks/comments/oe2z02/comment/hwfpxte/?utm_source=share&amp;utm_medium=web2x&amp;context=3" target="_blank" rel="noopener noreferrer">steps</a>.</p>
+<p>You will need an app like X-plore to edit the Android system files in order to add our proxy and Charles root certificate. Once you've downloaded and installed the app (you can drag the .apk file directly into the emulator), press the three dots in the top right corner and press "Configuration". You'll need to set the app into "Superuser + mount writable" mode.</p>
+<p>Briefly head into Charles to set up your proxy. Be sure to turn off the default "Windows proxy" switch in the Proxy tab. Then press Proxy -&gt; Proxy Settings... click both of the switches under the HTTP proxy. After that, press Help -&gt; Local IP Address and take a note of your IP.</p>
+<p>Then navigate to /data/system/users/0 (this will prompt the app to allow superuser access. Press "Accept".) and open "settings_global.xml" with the app's file editor. Then add these entries anywhere into the file, making sure to change the IP address to the one given to you by Charles:</p>
+<p class="_1qeIAgB0cPwnLhDF9XSiJM"><code class="_34q3PgLsx9zIU5BiSOjFoM">&lt;setting id="100" name="global_proxy_pac_url" value="" package="android" /&gt;</code><br><code class="_34q3PgLsx9zIU5BiSOjFoM">&lt;setting id="97" name="global_http_proxy_host" value="192.168.1.10" package="android" /&gt;</code><br><code class="_34q3PgLsx9zIU5BiSOjFoM">&lt;setting id="98" name="global_http_proxy_port" value="8888" package="android" /&gt;</code><br><code class="_34q3PgLsx9zIU5BiSOjFoM">&lt;setting id="99" name="global_http_proxy_exclusion_list" value="" package="android" /&gt;</code><br><code class="_34q3PgLsx9zIU5BiSOjFoM">&lt;setting id="96" name="http_proxy" value="192.168.1.10:8888" package="com.android.shell" /&gt;</code></p>
+<p>Once that is done, save the file and reboot the emulator. You should start seeing HTTP(S) queries in the list, but you will not be able to see HTTPS requests yet. Turn on the SSL proxy by pressing Proxy -&gt; SSL Proxying Settings, pressing the "Enable SSL Proxying" button and adding "*" as a location.</p>
+<p>Now we need to install Charles' root certificate into the emulator. To do this, save Charles' root certificate locally by pressing Help -&gt; SSL Proxying -&gt; Save Charles Root Certificate..., and then save the file somewhere locally.</p>
+<p>Next, you will need to add it manually into Android's certificate store. Install OpenSSL locally and navigate to wherever you saved the certificate. Then, type these two commands, courtesy of this StackOverflow <a href="https://stackoverflow.com/questions/44942851/install-user-certificate-via-adb/46569793#46569793" target="_blank" rel="noopener noreferrer">answer</a>:</p>
+<p><code>openssl x509 -inform PEM -subject_hash_old -in cert.pem | head -1</code></p>
+<p>Next, make a new text file with the name that OpenSSL gives you, with the extension .0. For example: 4a613d6b.0</p>
+<p>After that, run this command:</p>
+<p><code>openssl x509 -inform PEM -text -in cert.pem</code></p>
+<p>And copy-paste the text into the text file we just created. Drag and drop this file into the emulator, and open X-plore again. You should find that file in /storage/emulated/0/Download. Copy that file to clipboard and paste it in /system/etc/security/cacerts.</p>
+<p>Once that is done, download and install this Xposed <a href="https://github.com/ViRb3/TrustMeAlready" target="_blank" rel="noopener noreferrer">module</a>, go to the Xposed Installer -&gt; Modules and enable it. This disables SSL verification and pinning for most apps, making them trust Charles' root SSL certificate, allowing us to sniff the traffic.</p>
+<p>Reboot the device, and voila! You now can sniff almost any apps' encrypted SSL traffic.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>America&#x27;s Secret Pager Giant</title>
         <author>
@@ -19,7 +70,7 @@
             <category term="pager"/>
             <category term="article"/>
 
-        <updated>2022-07-16T22:48:26+03:00</updated>
+        <updated>2022-07-28T16:16:16-05:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://evilsaloon.com/media/posts/2/graph.PNG" alt="" />
@@ -163,7 +214,7 @@
         <link href="https://evilsaloon.com/hello-world/"/>
         <id>https://evilsaloon.com/hello-world/</id>
 
-        <updated>2022-07-16T22:32:38+03:00</updated>
+        <updated>2022-07-28T16:16:10-05:00</updated>
             <summary>
                 <![CDATA[
                     Hello, world! Welcome to my personal blog. I'm a sophomore at Penn State, studying Computer Science at the University Park campus. I'm also the president of the Slavic Club. I speak English and Russian fluently, and I'm pretty comfortable with Python. I'm also currently learning&hellip;
