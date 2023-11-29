@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>evilsaloon</title>
     <link href="https://evilsaloon.com/feed.xml" rel="self" />
     <link href="https://evilsaloon.com" />
-    <updated>2022-07-30T18:48:03-05:00</updated>
+    <updated>2022-07-30T19:48:03-04:00</updated>
     <author>
         <name>Maximilian Vidavsky</name>
     </author>
@@ -16,12 +16,13 @@
         </author>
         <link href="https://evilsaloon.com/is-there-finance-after-sanctions/"/>
         <id>https://evilsaloon.com/is-there-finance-after-sanctions/</id>
+        <media:content url="https://evilsaloon.com/media/posts/3/antuan-2.PNG" medium="image" />
             <category term="sanctions"/>
             <category term="russia"/>
             <category term="finance"/>
             <category term="article"/>
 
-        <updated>2022-07-30T18:48:03-05:00</updated>
+        <updated>2022-07-30T19:48:03-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://evilsaloon.com/media/posts/3/antuan-2.PNG" alt="" />
@@ -30,7 +31,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://evilsaloon.com/media/posts/3/antuan-2.PNG" alt="" />
+                    <p><img src="https://evilsaloon.com/media/posts/3/antuan-2.PNG" class="type:primaryImage" alt="" /></p>
                 <p>It’s been 5 months since Russia invaded Ukraine, and most Russians are still reeling from the economic sanctions imposed on the nation. From the voluntary “operation suspension” by the likes of Visa and Mastercard to the removal of several Russian banks from the SWIFT network, private and public institutions alike have swiftly acted to punish the nation’s government for its actions, as well as the rest of the Russian populace. This article will explore how both the average consumer and the financial market have adapted to these changes.</p>
 <h2>Foreword</h2>
 <p>It is extremely important for me to stress that this article isn’t political. There is a plethora of people infinitely more qualified than me to dissect the political nature of the Ukraine-Russia regional conflict. However, having lived in Russia for most of my life, I believe that I am in the unique position to pull back the “Financial Iron Curtain”, to bring back firsthand accounts about how the average (non-oligarch) Russian is living with these sanctions.</p>
@@ -81,7 +82,7 @@
 <p>Typically, market forces would work to lower these commission rates, and, in the banking world, this is typically the case. Most Russian banks use the mid-market exchange rate for foreign transactions, and usually waive foreign transaction fees on debit/credit cards entirely. However, because the vacuum left by Visa and Mastercard's exit from the market is so extreme, sellers can get away with 10-25% commission rates and high (500-1000 RUB or 8-16 USD) transaction minimums.</p>
 <p>Avito also has a rating system that clients can use to leave feedback, but systems like this can easily be abused. It is not impossible for a scammer to create a new profile, buy a bunch of fake 5-star reviews, and then scam a big fish that comes along. Most sellers require payment upfront to execute the transaction (this is a common Russian business practice, since, according to proverb, "Nothing strengthens faith in a person like advance payment"), and a financially unsavvy buyer could easily fall for a scam of this sort.</p>
 <p>There is also the matter that this financial activity is strictly in the legal grey zone. Since sellers are regular individuals paid in rubles via P2P payment systems in Russia and execute their transactions using their own personal cards tied to foreign bank accounts, there is no practical way for sellers to execute KYC checks on their customers. There is also no practical way for tax agencies on either side of the financial iron curtain to tax these transactions, since they are cross-border, cross-jurisdiction, and are often not executed via traditional means.</p>
-<figure class="post__image"><img loading="lazy"  src="https://evilsaloon.com/media/posts/3/antuan.PNG" sizes="100vw" srcset="https://evilsaloon.com/media/posts/3/responsive/antuan-xs.PNG 300w ,https://evilsaloon.com/media/posts/3/responsive/antuan-sm.PNG 480w ,https://evilsaloon.com/media/posts/3/responsive/antuan-md.PNG 768w ,https://evilsaloon.com/media/posts/3/responsive/antuan-lg.PNG 1024w ,https://evilsaloon.com/media/posts/3/responsive/antuan-xl.PNG 1360w ,https://evilsaloon.com/media/posts/3/responsive/antuan-2xl.PNG 1600w"  alt="One such Avito seller, with over one hundred 5 star reviews." width="1702" height="873"><figcaption>One such Avito seller, with over one hundred 5 star reviews.</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://evilsaloon.com/media/posts/3/antuan.PNG" alt="One such Avito seller, with over one hundred 5 star reviews." width="1702" height="873" sizes="100vw" srcset="https://evilsaloon.com/media/posts/3/responsive/antuan-xs.PNG 300w ,https://evilsaloon.com/media/posts/3/responsive/antuan-sm.PNG 480w ,https://evilsaloon.com/media/posts/3/responsive/antuan-md.PNG 768w ,https://evilsaloon.com/media/posts/3/responsive/antuan-lg.PNG 1024w ,https://evilsaloon.com/media/posts/3/responsive/antuan-xl.PNG 1360w ,https://evilsaloon.com/media/posts/3/responsive/antuan-2xl.PNG 1600w"><figcaption>One such Avito seller, with over one hundred 5 star reviews.</figcaption></figure>
 <p>Since the SWIFT network is extremely unreliable when it comes to moving money out of the country, most sellers use cryptocurrency instead of wire transfers. This makes it even harder for tax agencies to track, especially if sellers use P2P exchanges. While the break-even margin for cryptocurrency transfers is anywhere from 0.5-7% depending on the time of day and volatility of the markets (speaking from personal experience), crypto payments move incredibly fast, taking anywhere from 10 minutes to one hour to move money out of Russia and into the West. This allows sellers to have empty bank accounts at both the start and end of the business day, lowering the effective risk of bank account closures.</p>
 <p>Because so much of the seller's business is dependent on moving money out of the country cheaply and quickly, these individuals operate at a speed and scale unheard of in the financial world. They utilize every mean at their disposal to cut costs; means that are inaccessible to businesses too reliant on reporting every transaction for taxation and regulatory purposes. Private companies simply cannot fill this gap because the regulatory risk is too high (banks will not want to work with a business whose main goal is to tip-toe the line around international sanctions, and the workflow required to keep these transactions legal would stifle any attempt to get into the market).</p>
 <p>This means that the core of this business is made up of a few dozen individuals willing to take the risk for making these types of transactions, attracted only by profit and not by the willingness to help their fellow citizens. Their actions could vaguely be classified as extortion - since, for most people, there is simply no other alternative.</p>
@@ -108,12 +109,13 @@
         </author>
         <link href="https://evilsaloon.com/bluestacks-and-charles-proxy/"/>
         <id>https://evilsaloon.com/bluestacks-and-charles-proxy/</id>
+        <media:content url="https://evilsaloon.com/media/posts/4/bst1-2.PNG" medium="image" />
             <category term="tutorial"/>
             <category term="charles"/>
             <category term="bluestacks"/>
             <category term="android proxy"/>
 
-        <updated>2022-07-30T17:16:37-05:00</updated>
+        <updated>2022-07-30T18:16:37-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://evilsaloon.com/media/posts/4/bst1-2.PNG" alt="" />
@@ -122,7 +124,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://evilsaloon.com/media/posts/4/bst1-2.PNG" alt="" />
+                    <p><img src="https://evilsaloon.com/media/posts/4/bst1-2.PNG" class="type:primaryImage" alt="" /></p>
                 <p>Recently, I came across a problem: my trusty rooted Android 4 phone couldn't install an app whose API I wanted to reverse engineer, because the app was targeting Android versions 7 and above. Instead of buying a newer phone for my needs, I started looking towards emulators.</p>
 <p>The first article I came across was from Mark Dappollone on <a href="https://mdapp.medium.com/the-android-emulator-and-charles-proxy-a-love-story-595c23484e02" target="_blank" rel="noopener noreferrer">Medium</a>, but it was published back in 2017 and didn't address my main concern: installing Android Studio just to use its emulator is a massive waste of time and hard drive space. Android Studio is completely unintuitive, and the emulator does not work on my machine at all.</p>
 <p>Not only that, but it's meant for developers who can add their own SSL certificates into apps, which is impractical for reverse engineering, when we usually don't have access to the source code. Instead, I turned to an emulator I had used before, BlueStacks. This article will teach you how to root the BlueStacks emulator and use it to proxy calls.</p>
@@ -131,7 +133,7 @@
 <p>Once loaded, close the emulator and download the latest version of <a href="https://bstweaker.tk/" target="_blank" rel="noopener noreferrer">BlueStacks Tweaker</a>. This nifty program will allow us to root the emulator, as well as install Xposed. The latest beta works with the latest version of BlueStacks 5 (5.9).</p>
 <h2>Step 2 - Root + Xposed</h2>
 <p>Open BlueStacks Tweaker and navigate to the "Root" tab. Make sure the emulator is closed and press "Unlock". This will unlock the emulator for rooting. Once that is done, press the "Play" button next to your emulator and wait for the emulator to load. Make sure you have Android Nougat (7.1), because BlueStacks Tweaker doesn't support the Android Pie beta yet.</p>
-<figure class="post__image"><img loading="lazy"  src="https://evilsaloon.com/media/posts/4//bst1.PNG" sizes="100vw" srcset="https://evilsaloon.com/media/posts/4//responsive/bst1-xs.PNG 300w ,https://evilsaloon.com/media/posts/4//responsive/bst1-sm.PNG 480w ,https://evilsaloon.com/media/posts/4//responsive/bst1-md.PNG 768w ,https://evilsaloon.com/media/posts/4//responsive/bst1-lg.PNG 1024w ,https://evilsaloon.com/media/posts/4//responsive/bst1-xl.PNG 1360w ,https://evilsaloon.com/media/posts/4//responsive/bst1-2xl.PNG 1600w"  alt="" width="1023" height="559"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://evilsaloon.com/media/posts/4//bst1.PNG" alt="" width="1023" height="559" sizes="100vw" srcset="https://evilsaloon.com/media/posts/4//responsive/bst1-xs.PNG 300w ,https://evilsaloon.com/media/posts/4//responsive/bst1-sm.PNG 480w ,https://evilsaloon.com/media/posts/4//responsive/bst1-md.PNG 768w ,https://evilsaloon.com/media/posts/4//responsive/bst1-lg.PNG 1024w ,https://evilsaloon.com/media/posts/4//responsive/bst1-xl.PNG 1360w ,https://evilsaloon.com/media/posts/4//responsive/bst1-2xl.PNG 1600w"></figure>
 <p>Once the emulator has loaded, press "Patch", then "Install SuperSu", then "Update Su binary". This will close the instance, so don't be surprised. Launch it again, and under the Xposed tab, press "Patch", "Install", and then "Flash". Restart the instance, and then open Xposed. It should say "Xposed Framework version 89 is active." and display a green checkmark. This means we can move onto step 3.</p>
 <h2>Step 3 - Root Certificate + Proxy</h2>
 <p>Now that our "device" is rooted and Xposed, we can start by setting the proxy. Kudos to u/ProgramTechie on Reddit for figuring out the <a href="https://www.reddit.com/r/BlueStacks/comments/oe2z02/comment/hwfpxte/?utm_source=share&amp;utm_medium=web2x&amp;context=3" target="_blank" rel="noopener noreferrer">steps</a>.</p>
@@ -159,10 +161,11 @@
         </author>
         <link href="https://evilsaloon.com/americas-secret-pager-giant/"/>
         <id>https://evilsaloon.com/americas-secret-pager-giant/</id>
+        <media:content url="https://evilsaloon.com/media/posts/2/graph.PNG" medium="image" />
             <category term="pager"/>
             <category term="article"/>
 
-        <updated>2022-07-28T16:16:16-05:00</updated>
+        <updated>2022-07-28T17:16:16-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://evilsaloon.com/media/posts/2/graph.PNG" alt="" />
@@ -171,13 +174,13 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://evilsaloon.com/media/posts/2/graph.PNG" alt="" />
+                    <p><img src="https://evilsaloon.com/media/posts/2/graph.PNG" class="type:primaryImage" alt="" /></p>
                 <p><em>This article was originally published on <a href="https://hackernoon.com/americas-secret-pager-giant" target="_blank" rel="noopener noreferrer">HackerNoon</a>.</em></p>
 <p>Early January 2022, I spontaneously bought a pager. I looked into the US pager market, and to my surprise, there were (and still are!) several companies offering pager service. After a bit of digging, I decided to sign up for <a href="https://www.mysecretaryusa.com/assured/index.htm">MySecretaryUSA’s</a> two-way pager plan.</p>
 <p>While waiting for a pager to be shipped, I started to do some digging. The “Paging Coverage Area Maps” and “Send a Page” links on MySecretaryUSA’s site took me to two websites: <a href="https://www.spok.com/solutions/paging-services/check-paging-coverage/nationwide-two-way-map/">spok.com</a> and <a href="https://secure.usamobility.net/">usamobility.net</a> respectively, which immediately told me that MySecretary is a Spok/USA Mobility reseller.</p>
 <p>At the time of writing, I found competing resellers, but all of them were using Spok’s network. It stands to reason that the only company offering truly nationwide paging service, as opposed to local providers that serve a single city or state, is Spok (and Spok themselves <a href="https://www.spok.com/solutions/paging-services/">claim</a> to be the nation’s largest paging network). However, in order to understand Spok as a company, I first had to understand how pagers work.</p>
 <h4>Pager Recap</h4>
-<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-pp93k40.jpeg" data-is-external-image="true"  alt="My Motorola T900 Talkabout Two-Way pager"><figcaption>My Motorola T900 Talkabout Two-Way pager</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-pp93k40.jpeg" alt="My Motorola T900 Talkabout Two-Way pager" data-is-external-image="true"><figcaption>My Motorola T900 Talkabout Two-Way pager</figcaption></figure>
 <p>In short, a pager is a small battery-powered device that displays messages on the go. When they were first created, they could only play a specific tone, but as technology evolved, they could play voice messages, display phone numbers and text, and eventually reply to messages. Their use among the general public significantly diminished after the popularization of cell phones, and they currently enjoy widespread use in hospitals and other medical institutions, where mobile network coverage may be spotty.</p>
 <p>The pager I have is a two-way pager, meaning it can send and receive messages. My plan includes 3000 messages a month, as well as SMS messaging, a voicemail box, nationwide access, and a whole host of other features. It is worth pointing out that a pager without a plan is mostly useless to the average person. Just like a mobile phone without a SIM card can’t use any cell network (except for emergency calls), a pager needs to be activated and assigned a capcode, or a unique ID in the paging network, in order for it to work. However, hobbyists have found ways to resurrect them. If you haven’t read Dmitrii Eliuseev’s <a href="https://debugger.medium.com/howto-using-a-pager-in-the-21st-century-6a57454ecde8">article</a> about several of those ways, I highly recommend it.</p>
 <p>Most modern pager plans also come with a free phone number. That phone number is how you interact with the pager: you can call it to leave a voicemail, you can text it to send a page to it, etc. When I signed up for my plan, I was asked what area code I wanted the pager to have. Since my university has courtesy phones with free local calling, this allowed me to have a voicemail box freely accessible from any phone on campus.</p>
@@ -186,18 +189,18 @@
 <blockquote>
 <p>“In 2014, two powerful communication companies, USA Mobility and Amcom Software, merged into one cohesive business — and Spok was born” — <a href="https://www.spok.com/about-spok/">Spok Inc.</a></p>
 </blockquote>
-<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-j5a3kz4.png" data-is-external-image="true"  alt="Spok Company History"><figcaption>Spok Company History</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-j5a3kz4.png" alt="Spok Company History" data-is-external-image="true"><figcaption>Spok Company History</figcaption></figure>
 <p>Spok’s <a href="https://www.spok.com/about-spok/spok-company-history/">history</a> technically started in 1965, one year after Motorola released their first consumer tone-only pager, the Pageboy I. However, Spok itself is relatively young, coming into existence only in 2014 via the merger of two large industry players: USA Mobility (who handle the paging/wireless side of things) and Amcom Software (a communications software company). As you can see by the flowchart above, Spok is the result of almost half a century of mergers and acquisitions.</p>
 <p>Nowadays, Spok is primarily a healthcare-oriented business. Most of the promotional language on their website and Twitter account is targeted to healthcare institutions. Consumers can no longer purchase paging coverage directly from Spok, instead having to go through resellers and other third parties.</p>
 <p>You might be wondering why I called Spok a “secret paging giant”. That’s because most people outside of the healthcare industry haven’t heard of them, but they have most likely visited a practice employing their products at least once. According to Spok’s 2021 Full Year earnings <a href="https://www.webcast-eqs.com/spok02172022_en/en">call</a>, every top 10 children’s hospital and top 20 adult hospital has some sort of relationship with Spok, with the oldest one being 42 years!</p>
-<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-85b3kdk.png" data-is-external-image="true"  alt="Spok Earnings Call graphic. Slide 11. Copyright Spok, Inc."><figcaption>Spok Earnings Call graphic. Slide 11. Copyright Spok, Inc.</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-85b3kdk.png" alt="Spok Earnings Call graphic. Slide 11. Copyright Spok, Inc." data-is-external-image="true"><figcaption>Spok Earnings Call graphic. Slide 11. Copyright Spok, Inc.</figcaption></figure>
 <p>Many of these hospitals have been using Spok’s pagers, as well as their software, for several decades, and these “Longstanding Customer Relationships” very rarely break, especially in an field as technologically inflexible as healthcare. If something works well, there’s a chance it’ll remain maintained for decades, maybe even centuries. That is Spok’s legacy, and their bread and butter going forward.</p>
 <h4>CLICK HERE for Free Private Data</h4>
 <p>At this point, I had spent about a week on-and-off digging into Spok. The next logical question I had was “How many customers does this company have?” The answer is not publicly available. Spok published an <a href="https://www.spok.com/resources/infographic-paging-power/">infographic</a> called “The ongoing power of paging,” where they mentioned that their network processes “more than 100 million messages/month”, but this number did not give me any clues to the total number of paging customers.</p>
 <p>The solution to my problem came to me while I was looking at the “Send a Page” page. Amongst the various text boxes was the line: “<strong>Need to verify the number?</strong> <a href="https://secure.usamobility.net/message/lookup.html">CLICK HERE</a> to validate device numbers”.</p>
-<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-04c3kxn.png" data-is-external-image="true"  alt="Spok’s “Send a Page” website"><figcaption>Spok’s “Send a Page” website</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-04c3kxn.png" alt="Spok’s “Send a Page” website" data-is-external-image="true"><figcaption>Spok’s “Send a Page” website</figcaption></figure>
 <p>Upon pressing the button, you are asked to enter a number to validate, and the page makes a request to a CGI that tells you if the number is valid.</p>
-<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-prd3kmb.png" data-is-external-image="true"  alt="" width="702" height="295"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-prd3kmb.png" alt="" width="702" height="295" data-is-external-image="true"></figure>
 <p>Great, now I had a way to check if a certain number belongs to Spok or not. At this point, all I needed to do is feed a every single possible number I could into that endpoint, and I’d not only get the total amount of customers Spok has, but I’d also get their numbers. Sounds simple, right?</p>
 <p>However, I was now presented with a problem: the standard US phone number (xxx-xxx-xxxx) is 10 digits long. Going through all 10 billion possible combinations would take infeasibly long, so I needed a way to narrow down the scope of possible numbers. Thankfully, there is a way to do just that.</p>
 <h4>NANPA To The Rescue</h4>
@@ -206,7 +209,7 @@
 <p>Here’s a typical line from the text file:</p>
 <pre><code>WI **262–231** 6630 “USA MOBILITY WIRELESS, INC.” LAKEGENEVA AS N.</code></pre>
 <p>We don’t need to worry about anything except the second column, which gives us the area and central office code assigned to Spok. 2336 matches times 10000 numbers in a central office code is 23.36 million unique numbers that could potentially be active. This narrowed my range significantly, but I could not possibly go through all of these numbers sequentially.</p>
-<p><img loading="lazy" src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-zle3kx6.png" data-is-external-image="true"  alt="\&quot;\&quot;"></p>
+<p><img loading="lazy" src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-zle3kx6.png" alt="\&quot;\&quot;" data-is-external-image="true"></p>
 <p>According to Insomnia, a single request to Spok’s checking CGI takes 80.5ms from start to finish, so if one were to run all the possible numbers through Spok’s checker, it would take 1.88 billion milliseconds, or around 21.8 <strong>days</strong> to complete all of the requests. Even for a one-time operation, this wait time is unacceptable. I needed to find a way to run many, many requests at the same time.</p>
 <h4>AsyncIO, meet HTTPX.</h4>
 <p>The first obvious step is to run these requests concurrently. Python has multiple ways to do this: multiprocessing, multithreading, and asyncio. I won’t go over the difference between these libraries, because that is out of the scope of this article, but I decided to choose asyncio. If you’re wondering what library to choose for your project, here’s an excellent Stack Overflow <a href="https://stackoverflow.com/a/52498068">answer</a> that might help.</p>
@@ -231,13 +234,13 @@
 <p>Firstly, I have to mention that just because these numbers belong to Spok, it doesn’t mean that they are “consumer” paging customers. One of Spok’s products is a turn-key contact center, and their main line of business is enterprise-level healthcare paging, which means a number could be a hospital’s main customer service line, or a doctor’s phone number.</p>
 <p>Secondly, there is a degree of fallibility in my results. I am using ZIP codes as a proxy for location. Not only can area-codes.com’s database be inaccurate, but so can Simplemaps’. I am converting from central office code to ZIP, and then again to city/county/state. Any error at any step could give false results.</p>
 <p>Let’s take a look at the State, County, and City graphs for the data I gathered:</p>
-<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-hof3ktg.png" data-is-external-image="true"  alt="Total numbers of customers by US state. Visualization by Plotly"><figcaption>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-hof3ktg.png" alt="Total numbers of customers by US state. Visualization by Plotly" data-is-external-image="true"><figcaption>
 <div class="image-container undefined">
 <p class="image-caption">Total numbers of customers by US state. Visualization by Plotly</p>
 </div>
 </figcaption></figure>
-<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-f4g3k8p.png" data-is-external-image="true"  alt="Total numbers of customers by US county. Visualization by Plotly"><figcaption>Total numbers of customers by US county. Visualization by Plotly</figcaption></figure>
-<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-u5h3kuy.png" data-is-external-image="true"  alt="Total numbers of customers by US city"><figcaption>Total numbers of customers by US city</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-f4g3k8p.png" alt="Total numbers of customers by US county. Visualization by Plotly" data-is-external-image="true"><figcaption>Total numbers of customers by US county. Visualization by Plotly</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-u5h3kuy.png" alt="Total numbers of customers by US city" data-is-external-image="true"><figcaption>Total numbers of customers by US city</figcaption></figure>
 <p>Three things jumped out at me immediately after I finished compiling these data:</p>
 <ol>
 <li>479 thousand numbers isn’t all that much. Even if we assume all of these are paging customers, and do not contain any call center or service numbers (modems for the paging network, etc.), that’s, for example, 7.3 times less than the number of Facebook Messenger users in Costa Rica (according to <a href="https://www.statista.com/statistics/1071951/number-users-messenger-costa-rica/">Statista</a>)</li>
@@ -248,7 +251,7 @@
 <p>Let’s explore the Grand Prairie anomaly. The first thing I did was Google what “Grand Prairie” even is. Turns out it’s a city in the Fort Worth-Dallas twin city area with a population of about 194 thousand people (according to the 2020 US Census).</p>
 <p>The second thing I did was go back to my raw data and sum up all the numbers with the “GRANDPRARI” rate center, since I assumed that numbers in that area won’t be assigned to any other rate center. To my surprise, I ended up with more numbers than in my city graph! 23973 as opposed to 23617 ZIP-geocoded numbers. This immediately tells us two things: either pagers have a 12.4% penetration in such a small city, or there’s another factor at play.</p>
 <p>A clue could be hiding on Spok’s “Contact us” <a href="https://www.spok.com/contact-us/">page</a>. They claim to have two locations in the US: one in Alexandria, VA, another in Plano, TX. Looking at FCC filings (file number <a href="https://licensing.fcc.gov/cgi-bin/ws.exe/prod/ib/forms/reports/swr031b.hts?q_set=V_SITE_ANTENNA_FREQ.file_numberC/File+Number/%3D/SESRWL2017071400761&amp;prepare=&amp;column=V_SITE_ANTENNA_FREQ.file_numberC/File+Number">SESRWL2017071400761</a>), they seem to have a ground satellite station at their address at 3000 Technology Drive, as seen on Google Maps satellite view.</p>
-<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-mci3klg.png" data-is-external-image="true"  alt="Imagery ©2022 Maxar Technologies, Map data ©2022 Google"><figcaption>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-mci3klg.png" alt="Imagery ©2022 Maxar Technologies, Map data ©2022 Google" data-is-external-image="true"><figcaption>
 <div class="image-container undefined">
 <p class="image-caption">Imagery ©2022 Maxar Technologies, Map data ©2022 Google</p>
 </div>
@@ -286,7 +289,7 @@
 </li>
 </ul>
 <p>My favorite anomaly probably has to be Arkansas. Arkansas doesn’t have any pager towers, the only service that it gets is bleed-over from Memphis across state lines (see if you can spot it on the following <a href="http://cloud.spok.com/coverage/NationwideTwo-way/AR.pdf">map</a> without my red highlight).</p>
-<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-v2j3kk4.png" data-is-external-image="true"  alt="Arkansas Two-Way Pager Coverage Map. Copyright Spok, Inc"><figcaption>Arkansas Two-Way Pager Coverage Map. Copyright Spok, Inc</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.hackernoon.com/images/Ukwbm9e6XigP4lRj7BnG8FH39tj2-v2j3kk4.png" alt="Arkansas Two-Way Pager Coverage Map. Copyright Spok, Inc" data-is-external-image="true"><figcaption>Arkansas Two-Way Pager Coverage Map. Copyright Spok, Inc</figcaption></figure>
 <p>Despite this, in my dataset is a single number from Fort Smith, AR, a town with a population of about 87 thousand (according to the 2020 US Census), on the complete opposite side of the state border. Not only that, but it is the <strong>only</strong> Arkansas number in my dataset. I don’t think I can put into words the astonishment I felt when I discovered this.</p>
 <p>This, however, is the perfect time for me to reiterate that a number doesn’t necessarily mean a pager is active in that area. The most likely explanation I have is that a customer from the Memphis area frequently called into Fort Smith or was stationed there, so it would be more convenient for them to acquire a Fort Smith number.</p>
 <h4>Conclusion</h4>
@@ -306,7 +309,7 @@
         <link href="https://evilsaloon.com/hello-world/"/>
         <id>https://evilsaloon.com/hello-world/</id>
 
-        <updated>2022-07-28T16:16:10-05:00</updated>
+        <updated>2022-07-28T17:16:10-04:00</updated>
             <summary>
                 <![CDATA[
                     Hello, world! Welcome to my personal blog. I'm a sophomore at Penn State, studying Computer Science at the University Park campus. I'm also the president of the Slavic Club. I speak English and Russian fluently, and I'm pretty comfortable with Python. I'm also currently learning&hellip;
